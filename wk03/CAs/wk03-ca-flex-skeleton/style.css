@@ -1,0 +1,35 @@
+ul{list-style: none;}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  background-color: lightpink;
+}
+
+.flex-item {
+  background-color: orangered;
+  color: white;
+  width: 100px;
+  line-height: 75px;
+  text-align: center;
+  margin: 10px;
+
+}
+
+@media (max-width: 576px) {
+  .flex-container {
+    width: 70%;
+    margin: auto;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    background-color: lightcoral;
+  }
+  .flex-item {
+    background-color: yellow;
+    color: black;
+  }
+}

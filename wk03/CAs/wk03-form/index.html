@@ -1,0 +1,40 @@
+<html>
+    <head></head>
+    <body>
+        <h1>Book a medical appointment</h1>
+        <form action="">
+            <label for="username">User Name</label>
+            <input type="text" name="username" required>
+            <br /><br />
+            <label for="apptdate">Date of Appointment</label>
+            <input type="date" name="apptdate" required>
+            <br /><br />
+            <label for="appttime">Time of Appointment</label>
+            <input type="time" name="appttime" required>
+            <br /><br />
+            <label for="option">Options: 
+                <input type="radio" name="option">private
+                <input type="radio" name="option">public
+                <input type="radio" name="option">private-male
+                <input type="radio" name="option">private-female
+            </label>
+            <br /><br />
+            <label>Languages spoken: 
+                <input type="checkbox" name="language1" value="Chinese">
+                    <label for="language1">Chinese中文</label>
+                <input type="checkbox" name="language2" value="English">
+                    <label for="language2">English</label>
+                <input type="checkbox" name="language3" value="Malay">
+                    <label for="language3">Malayu</label>
+                <input type="checkbox" name="language4" value="Tamil">
+                    <label for="language4">Tamil</label>
+            </label>
+            <br /><br />
+            <label for="remarks">Remarks: <br />
+                <textarea name="remarks" rows="4"></textarea>
+            </label>
+            <br /><br />
+            <input type="submit" value="Confrim the appointment">
+        </form>
+    </body>
+</html>

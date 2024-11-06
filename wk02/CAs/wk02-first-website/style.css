@@ -1,0 +1,39 @@
+h1{
+  color:peru
+}
+
+h2{
+  color:red
+}
+
+h3{
+  color:aqua
+}
+
+h4{
+  color:pink
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  /* border-radius: 50%; */
+}
+
+li{
+  color: blueviolet;
+}
+
+body{
+  background-color: transparent
+}
+
+#myElement{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.myClass{
+  text-align: right;
+}
