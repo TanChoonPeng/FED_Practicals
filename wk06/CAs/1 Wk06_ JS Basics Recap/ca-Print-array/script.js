@@ -8,7 +8,7 @@ for (let i = 0; i < a.length; ++i) {
     //add class to element through javascript
     newDiv.classList.add("mystyle")
     // and give it some content
-    let newContent = document.createTextNode(""+ a[i]);
+    let newContent = document.createTextNode("" + a[i]);
     // add the text node to the newly created div
     newDiv.appendChild(newContent);
     //add the div to the body of the html
