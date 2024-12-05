@@ -9,7 +9,7 @@ if (elements.length >= 3) {
   elements[2].className = "cool";
 } */
 
-/* var elements = document.getElementsByTagName("li"); 
+var elements = document.getElementsByTagName("li"); 
 if(elements.length >= 1){ 
   elements[0].className = "cool"; 
-}  */
+} 
